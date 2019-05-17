@@ -1,0 +1,412 @@
+h2{
+    text-align: center;
+    font-size: 24px;
+}
+hr{ margin-bottom: 30px; }
+
+/* Background Picture */
+.img-fluid {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size:100% 1080px;
+}
+
+/* Main login item, the container  -white block underneth it all */
+div.container{
+  overflow: hidden;
+  padding: 20px 25px 0px 25px;
+    top: 20%;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 10em;
+    width: 90%;
+}
+/* transparent sheet on top of container */
+div.main{
+    width: 320px;
+    margin: 0 auto;
+    padding: 10px 55px 40px;
+    background-color: rgba(63, 127, 191, 0.5);
+    border: 15px solid white;
+    box-shadow: 0 0 10px;
+    border-radius: 2px;
+    font-size: 13px;
+}
+/* Fields */
+input[type=text],[type=password] {
+    width: 97.7%;
+    height: 34px;
+    padding-left: 5px;
+    margin-bottom: 20px;
+    margin-top: 8px;
+    box-shadow: 0 0 5px #00F5FF;
+    border: 2px solid #00F5FF;
+    color: #4f4f4f;
+    font-size: 16px;
+}
+label{
+    color: #464646;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/* LOGIN BUTTON */
+#login {
+    width: 100%;
+    background: linear-gradient(#22abe9 5%, #36caf0 100%);
+    border: 1px solid #0F799E;
+    font-size: 20px;
+    margin-top: 15px;
+    padding: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    text-shadow: 0px 1px 0px #13506D;
+}
+#login:hover{
+    background: linear-gradient(#36caf0 5%, #22abe9 100%);
+}
+
+/* Register as a new user button */
+#newuser {
+    width: 58%;
+    background: linear-gradient(#22abe9 5%, #36caf0 100%);
+    border: 1px solid #0F799E;
+    font-size: 12px;
+    margin-top: 20px;
+    padding: 8px;
+    cursor: pointer;
+    color: white;
+    text-shadow: 0px 1px 0px #13506D;
+}
+#newuser:hover{
+    background: linear-gradient(#36caf0 5%, #22abe9 100%);
+}
+#delete {
+    width: 97.7%;
+    background: linear-gradient(#22abe9 5%, #36caf0 100%);
+    border: 1px solid #0F799E;
+    font-size: 20px;
+    margin-top: 15px;
+    padding: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    text-shadow: 0px 1px 0px #13506D;
+}
+#delete:hover{
+    background: linear-gradient(#36caf0 5%, #22abe9 100%);
+}
+
+/* Tables display CSS */
+body {
+  font-size: 15px;
+  color: #343d44;
+  font-family: "segoe-ui", "open-sans", tahoma, arial;
+  padding: 0;
+  margin: 0;
+}
+table {
+  margin: auto;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "Segoe Ui";
+  font-size: 12px;
+}
+h1 {
+  margin: 25px auto 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+table td {
+  transition: all .7s;
+}
+/* Table */
+.data-table {
+  border-collapse: collapse;
+  font-size: 14px;
+  min-width: 400px;
+  max-width: 400px;
+}
+.data-table th,
+.data-table td {
+  border: 1px solid #e1edff;
+  padding: 7px 17px;
+}
+.data-table caption {
+  margin: 10px;
+}
+/* Table Header */
+.data-table thead th {
+  background-color: #508abb;
+  color: #FFFFFF;
+  border-color: #6ea1cc !important;
+  text-transform: uppercase;
+}
+/* Table Body */
+.data-table tbody td {
+  color: #353535;
+}
+.data-table tbody td:first-child,
+.data-table tbody td:nth-child(4),
+.data-table tbody td:last-child {
+  text-align: right;
+}
+.data-table tbody tr:nth-child(odd) td {
+  background-color: #f4fbff;
+}
+.data-table tbody tr:hover td {
+  background-color: #ffccff;
+  border-color: #ffff0f;
+}
+/* Table Footer */
+.data-table tfoot th {
+  background-color: #e5f5ff;
+  text-align: right;
+}
+.data-table tfoot th:first-child {
+  text-align: left;
+}
+.data-table tbody td:empty {
+  background-color: #ffcccc;
+}
+
+/* Footer Styling */
+#footer {
+  height: 50px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: #00A;
+  z-index: 150;
+}
+
+#footer_push {
+  clear: both;
+  height: 50px;
+}
+
+
+
+
+.slidecontainer {
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.containerg {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.containerg input {
+  position: absolute;
+  opacity: 0;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+
+
+
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+}
+.select-selected {
+  background-color: DodgerBlue;
+}
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: DodgerBlue;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+#search {
+    width: 100%;
+    background: linear-gradient(#22abe9 5%, #36caf0 100%);
+    border: 1px solid #0F799E;
+    font-size: 20px;
+    margin-top: 15px;
+    padding: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    text-shadow: 0px 1px 0px #13506D;
+}
+#search:hover{
+    background: linear-gradient(#36caf0 5%, #22abe9 100%);
+}
+#gen {
+    width: 100%;
+    background: linear-gradient(#22abe9 5%, #36caf0 100%);
+    border: 1px solid #0F799E;
+    font-size: 20px;
+    margin-top: 15px;
+    padding: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    text-shadow: 0px 1px 0px #13506D;
+}
+#gen:hover{
+    background: linear-gradient(#36caf0 5%, #22abe9 100%);
+}
+#advsearch {
+    width: 100%;
+    background: linear-gradient(#22abe9 5%, #36caf0 100%);
+    border: 1px solid #0F799E;
+    font-size: 20px;
+    margin-top: 15px;
+    padding: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    text-shadow: 0px 1px 0px #13506D;
+}
+#advsearch:hover{
+    background: linear-gradient(#36caf0 5%, #22abe9 100%);
+}
+#edit {
+    width: 100%;
+    background: linear-gradient(#22abe9 5%, #36caf0 100%);
+    border: 1px solid #0F799E;
+    font-size: 20px;
+    margin-top: 15px;
+    padding: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    text-shadow: 0px 1px 0px #13506D;
+}
+#edit:hover{
+    background: linear-gradient(#36caf0 5%, #22abe9 100%);
+}
